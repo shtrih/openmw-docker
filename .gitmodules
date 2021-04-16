@@ -1,3 +1,5 @@
 [submodule "openmw"]
 	path = openmw
-	url = https://gitlab.com/OpenMW/openmw.git
+#;	url = https://gitlab.com/OpenMW/openmw.git
+	url = https://gitlab.com/ptmikheev/openmw.git
+	branch = lua

@@ -7,6 +7,7 @@ RUN apt update && \
         libmygui-dev libunshield-dev liblz4-dev libtinyxml-dev libqt5opengl5-dev \
         libboost-filesystem-dev libboost-program-options-dev libboost-iostreams-dev \
         libavcodec-dev libavformat-dev libavutil-dev libswscale-dev libswresample-dev \
+	libluajit-5.1-dev \
         && \
     apt clean
 
