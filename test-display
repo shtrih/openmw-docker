@@ -1,0 +1,6 @@
+#!/usr/bin/env sh
+set -eu
+
+IP="$(echo "$DISPLAY" | awk -F: '{print $1}')"
+echo ${IP}
+./run-docker sh -c "nc -v $IP 6000"
