@@ -12,6 +12,11 @@ More info: [using-x410-with-wsl2](https://x410.dev/cookbook/wsl/using-x410-with-
 
 This repo builds OpenMW [Lua](https://gitlab.com/OpenMW/openmw/-/merge_requests/430) branch to work with scripts.
 
+---
+UPDATE: This solution has the same camera issues (pure WSL2 too!): https://forum.openmw.org/viewtopic.php?t=6869&p=67354
+
+No luck ¯\\(°_o)/¯
+
 ## Build
 ```shell
 $ git submodule update --init
